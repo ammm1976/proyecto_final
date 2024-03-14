@@ -1,0 +1,24 @@
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
