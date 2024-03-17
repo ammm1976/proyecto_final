@@ -1,6 +1,11 @@
 import './style.css'
 import discos from './data/discos'
 
+const temaBtn = document.querySelector("#tema");
+temaBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+
 const favoritosSection = document.querySelector("#discosFavoritos")
 const otrosSection = document.querySelector("#otrosDiscos");
 
@@ -11,7 +16,7 @@ for (const disco of discos) {
     <h3>${disco.titulo}</h3>
     <h3>${disco.año}</h3>
   `;
-  if (disco.favorito){
+  if (disco.favorito) {
     favoritosSection.appendChild(article);
   } else {
     otrosSection.appendChild(article)

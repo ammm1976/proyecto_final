@@ -16,9 +16,42 @@ body {
   padding: 20px;
 }
 
+.dark {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
 header {
   height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#tema {
+  width: 80px;
+  margin-left: auto;
+}
+
+img {
+  width: 200px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; */
 }

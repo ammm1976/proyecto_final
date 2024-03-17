@@ -27,7 +27,7 @@ const discos = [
       titulo: "Against the Grain", 
       portada: "https://upload.wikimedia.org/wikipedia/en/8/80/BadReligionAgainstTheGrain.jpg", 
       año: 1990, 
-      favorito: true 
+      favorito: false 
     },
     { grupo: "Bad Religion",
       titulo: "Generator",
