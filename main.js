@@ -20,7 +20,7 @@ const PintarGrupo = (grupo) => {
     if (disco.grupo == grupo) {
       const article = document.createElement("article");
       article.innerHTML = `
-        <img src=${disco.portada} alt=${disco.titulo}
+        <img src=${disco.portada} alt=${disco.titulo}/>
         <h3>${disco.titulo}</h3>
         <h3>${disco.año}</h3>
       `;
